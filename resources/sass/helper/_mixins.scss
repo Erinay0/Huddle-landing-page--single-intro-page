@@ -9,7 +9,7 @@
 }
 
 @mixin bg-image ($filename, $position) {
-    background-image: url("#{$filename}.svg");
+    background-image: url(#{$filename}.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: $position;
