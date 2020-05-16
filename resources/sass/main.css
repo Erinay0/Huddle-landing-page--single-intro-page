@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: auto;
+      flex-wrap: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+body main .container .right button {
+  margin-top: 4%;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  padding-left: 5%;
+  color: white;
+  height: auto;
+  min-width: 1000px;
+  background-color: #674baf;
+  background-image: url("/resources/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+body main .brand-logo {
+  padding-top: 3%;
+}
+
+body main .container {
+  padding-top: 4%;
+  width: 90%;
+}
+
+body main .container .left {
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
+}
+
+body main .container .left img {
+  width: 95%;
+}
+
+body main .container .right {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  padding: 3% 0 0 3%;
+}
+
+body main .container .right h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8em;
+  padding-bottom: 2%;
+}
+
+body main .container .right p {
+  font-size: 1.7rem;
+}
+
+body main .container .right button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+}
+
+body main .container .right button:hover {
+  cursor: pointer;
+}
+
+body main .container .right button p {
+  color: #6549ab;
+  opacity: 1;
+}
+
+body footer .social-media {
+  text-align: right;
+  padding-right: 9%;
+}
+
+body footer .social-media i {
+  color: white;
+  padding: 15px 16px;
+  border: 1px solid white;
+  border-radius: 100%;
+  margin-left: 15px;
+}
+
+body footer .social-media i:hover {
+  cursor: pointer;
+}
+
+body footer .social-media i.fa-facebook-f {
+  padding: 15px 20px;
+}
+
+body footer .attribution {
+  padding: 2% 0;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+body footer .attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 380px) {
+  body {
+    min-width: 375px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("/resources/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+  }
+  body main {
+    margin-left: 5%;
+  }
+  body main .brand-logo {
+    display: block;
+    text-align: left;
+  }
+  body main img {
+    width: 40%;
+    padding-top: 6%;
+  }
+  body main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .container .left {
+    padding: 10% 0;
+  }
+  body main .container .right {
+    margin: 10% 0 15%;
+  }
+  body main .container .right h1 {
+    font-size: 1.2em;
+    padding-bottom: 5%;
+  }
+  body main .container .right p {
+    font-size: 1.55rem;
+    line-height: 1.5;
+  }
+  body main .container .right button {
+    margin-top: 10%;
+    width: 250px;
+    height: 45px;
+  }
+  body footer {
+    margin-top: 8%;
+  }
+  body footer .social-media {
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  body footer .social-media i {
+    color: white;
+  }
+  body footer .social-media i:hover {
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=main.css.map */

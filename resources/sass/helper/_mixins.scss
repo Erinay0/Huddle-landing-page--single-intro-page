@@ -1,0 +1,16 @@
+@mixin color ($hue, $saturation, $lightness, $alpha:1) {
+    color: hsl($hue, $saturation, $lightness);
+    opacity: $alpha
+}
+
+@mixin bg-color ($hue, $saturation, $lightness, $alpha:1) {
+    background-color: hsl($hue, $saturation, $lightness);
+    opacity: $alpha
+}
+
+@mixin bg-image ($filename, $position) {
+    background-image: url("#{$filename}.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: $position;
+}
